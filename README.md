@@ -52,4 +52,32 @@ manufacturing costs within 6 to 8 weeks.
 
 ## CIIP Index Scoring Methodology
 
+CIIP Score = (Pharma Demand x 0.30) + (Cross-Industry Competition x 0.45) + (Geopolitical Risk x 0.25)
+
+---
+
+## Technical Stack
+
+Python | Prophet | Pandas | NumPy | Plotly | Streamlit | scikit-learn | Matplotlib
+
+---
+
+## Data Sources
+
+| Material | Source | Rating |
+|---|---|---|
+| Methanol | Methanex Contract Prices | PRIMARY |
+| LNG Japan | World Bank Pink Sheet | PRIMARY |
+| Soda Ash | FRED Reconstructed Proxy | PROXY |
+| Acetic Acid | Chemanalyst/ICIS Proxy | PROXY |
+| Polysilicon | PVInsights/Bloomberg Proxy | PROXY |
+
+---
+
+## Contact
+
+Aditya V Sivaram Poduri
+adityavsivaram@gmail.com
+https://linkedin.com/in/adityasivaram
+
 **Live Dashboard:** https://ciip-pharma-supply-chain-intelligence-eowphashbnq2jnvj6mkjzq.streamlit.app
