@@ -234,3 +234,33 @@ with tab4:
 ---
 
 **Scoring Formula:**
+
+CIIP Score = (Pharma Demand x 0.30) + (Cross-Industry Competition x 0.45) + (Geopolitical Risk x 0.25)
+
+**Analytical Weights Applied:**
+- Volatility weight (CV and extreme moves)
+- Import dependency weight (India sourcing exposure)
+- Energy correlation weight (LNG transmission linkage)
+- Supplier concentration weight (single-country risk)
+
+---
+
+**Forecasting Method:**
+- Model: Facebook Prophet (Meta, 2017)
+- Training: 132 monthly observations (2015-2025)
+- Horizon: 12 months forward
+- Validation: Walk-forward train/test split — MAPE, MAE, RMSE
+
+---
+
+**Limitations:**
+1. Three datasets are reconstructed proxies: Soda Ash (FRED), Acetic Acid (Chemanalyst), Polysilicon (PVInsights)
+2. CIIP input scores are expert-calibrated, not regression-derived
+3. Prophet accuracy degrades beyond 6-month horizon for volatile materials
+4. Polysilicon has structural break in 2022 — treat as LOW CONFIDENCE
+5. Model does not capture black swan events
+
+**Data Credibility:** PRIMARY = authoritative source | PROXY = reconstructed estimate
+
+---
+    """)
