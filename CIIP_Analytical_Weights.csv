@@ -1,0 +1,6 @@
+Material,Base_CIIP,Volatility_Weight,Import_Dependency_Weight,Energy_Correlation_Weight,Supplier_Concentration_Weight,VaR_Adjustment_Weight,Composite_Weight,Weighted_CIIP,Weighted_Risk_Level,CIIP_Adjustment
+Soda Ash,8.67,0.8,1.0,0.985,1.0,1.0,0.953,8.27,CRITICAL,-0.4
+Methanol,7.5,1.2,1.2,1.105,1.0,1.317,1.159,8.7,CRITICAL,1.2
+Acetic Acid,7.5,1.0,1.2,1.066,1.25,1.0,1.098,8.24,CRITICAL,0.74
+LNG Japan,9.5,1.4,1.2,1.15,1.0,1.153,1.174,10.0,CRITICAL,0.5
+Polysilicon,6.0,1.2,1.2,1.054,1.25,1.056,1.149,6.89,HIGH,0.89

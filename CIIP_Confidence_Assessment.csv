@@ -1,0 +1,6 @@
+Material,Confidence_Score,Confidence_Tier,Tier_Note,Model_Accuracy_Component,Dataset_Credibility_Component,Signal_Stability_Component,Supply_Structure_Component,Import_Dependency,Supplier_Concentration,Volatility_Penalty_Applied
+Soda Ash,70.5,MODERATE,Assessment is directionally reliable,100.0,65.0,43.5,66.7,"20% imported, 80% domestic synthetic","Turkey, US, Kenya — moderate diversification",0%
+Methanol,66.8,MODERATE,Assessment is directionally reliable,60.0,95.0,33.5,83.3,"Heavily imported, limited domestic capacity","Middle East, Trinidad, China — moderate",25%
+Acetic Acid,85.9,HIGH,Assessment is analytically robust,90.0,60.0,95.7,100.0,Majority imported from China and SE Asia,China dominant — high concentration risk,10%
+LNG Japan,62.6,MODERATE,Assessment is directionally reliable,21.0,92.0,66.5,83.3,India has no LNG production — 100% import,"Qatar, Australia, US — moderate",40%
+Polysilicon,66.6,MODERATE,Assessment is directionally reliable,26.2,55.0,100.0,100.0,Zero domestic production — 100% China import,China controls 97% — extreme concentration,25%

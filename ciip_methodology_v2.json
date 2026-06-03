@@ -1,0 +1,32 @@
+{
+  "Framework": "CIIP Index - Cross-Industry Input Pressure Index",
+  "Developer": "Aditya V Sivaram Poduri",
+  "Version": "2.0 - June 2026",
+  "Theoretical_Basis": "Leontief Input-Output Economics (Nobel Prize 1973). Industries share upstream inputs. Pressure in one sector propagates into others 6-8 weeks before appearing in procurement data.",
+  "Scoring_Weights": {
+    "Pharma Demand Pressure": "30% - direct category exposure",
+    "Cross-Industry Competition": "45% - primary source of invisible risk",
+    "Geopolitical Supply Risk": "25% - supply corridor vulnerability"
+  },
+  "Assumptions": [
+    "Historical patterns contain 12-month predictive signal",
+    "CIIP input scores reflect current 2026 market structure",
+    "LNG Japan is valid proxy for Chinese industrial energy costs",
+    "6-8 week upstream transmission lag holds under normal conditions"
+  ],
+  "Limitations": [
+    "CRITICAL - Three datasets are reconstructed proxies: Soda Ash (FRED), Acetic Acid (Chemanalyst), Polysilicon (PVInsights)",
+    "CRITICAL - CIIP input scores are expert-calibrated not regression-derived",
+    "HIGH - Prophet accuracy degrades beyond 6-month horizon for volatile materials",
+    "HIGH - Polysilicon structural break in 2022 - treat as LOW CONFIDENCE",
+    "MODERATE - Model does not capture black swan events",
+    "DISCLOSURE - Some datasets use reconstructed proxies due to limited access to ICIS and S&P Global. Treat PROXY materials as directional indicators only."
+  ],
+  "Data_Sources": {
+    "Soda Ash": "FRED Reconstructed Proxy | PROXY | 2015-2025",
+    "Methanol": "Methanex Contract Prices  | PRIMARY | 2015-2025",
+    "Acetic Acid": "Chemanalyst/ICIS Proxy    | PROXY | 2015-2025",
+    "LNG Japan": "World Bank Pink Sheet     | PRIMARY | 2015-2025",
+    "Polysilicon": "PVInsights/Bloomberg Proxy | PROXY | 2015-2025"
+  }
+}

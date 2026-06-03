@@ -1,0 +1,6 @@
+Material,Train_Months,Test_Months,MAPE_Pct,MAE,RMSE,Directional_Accuracy_Pct,Bias_Pct,Forecast_Grade,Volatility_Tier,CV_Pct,Annualised_Vol_Pct,Extreme_Moves,Volatility_Penalty,Dataset_Rating,Dataset_Score,Dataset_Note
+Soda Ash,108,24,2.02,7.18,8.68,43.5,0.97,EXCELLENT,LOW,5.3,5.9,0,0.0,PROXY,0.65,FRED reconstructed proxy — not primary market data
+Methanol,108,24,8.07,60.24,72.15,47.8,-2.94,GOOD,HIGH,32.0,21.7,6,0.25,PRIMARY,0.95,Methanex contract prices — highly reliable source
+Acetic Acid,108,24,1.39,8.93,9.28,95.7,0.3,EXCELLENT,MODERATE,21.2,5.6,0,0.1,PROXY,0.6,Chemanalyst/ICIS trend proxy — partial reconstruction
+LNG Japan,108,24,31.18,4.03,4.05,73.9,30.98,POOR,EXTREME,51.9,15.7,2,0.4,PRIMARY,0.92,World Bank Pink Sheet — authoritative source
+Polysilicon,108,24,31.33,3.04,3.66,100.0,30.56,POOR,HIGH,45.9,11.6,0,0.25,PROXY,0.55,PVInsights/Bloomberg proxy — structural break 2022
