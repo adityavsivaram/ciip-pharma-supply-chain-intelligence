@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from prophet import Prophet
 import plotly.graph_objects as go
 import warnings
 warnings.filterwarnings("ignore")
@@ -276,6 +275,7 @@ CIIP Score = (Pharma Demand x 0.30) + (Cross-Industry Competition x 0.45) + (Geo
 - Training: 132 monthly observations (2015-2025)
 - Horizon: 12 months forward
 - Validation: Walk-forward train/test split — MAPE, MAE, RMSE
+- Note: Prophet forecasts are pre-computed and embedded for dashboard stability on Python 3.14+
 
 ---
 
