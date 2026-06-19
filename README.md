@@ -1,8 +1,20 @@
-# India Pharma Supply Chain Intelligence System
-## CIIP Index — Upstream Risk Scoring and Demand Forecasting
+# The CIIP Index (Cross-Industry Input Pressure Index)
 
-**Developed by Aditya V Sivaram Poduri**
+**Developed by Aditya V. Sivaram Poduri**
+
+## Analytical Framework & Methodology
+
+The CIIP Index is a proprietary framework applying Leontief Input-Output economics to track cross-industry commodity demand contagion in India's pharma supply chain — covering soda ash, methanol, acetic acid, LNG Japan, and polysilicon.
+
+This repository hosts the **India Pharma Supply Chain Intelligence System**, the working implementation of the CIIP Index: upstream risk scoring combined with demand forecasting for India's pharmaceutical manufacturing sector.
+
 **India Supply Chain Signals** | indiasupplychainsignals.substack.com
+
+---
+
+## Further Reading
+
+- [The Soda Ash Signal: Why India's Pharma Supply Chain Has a Blind Spot No Control Tower Can See](https://medium.com/@adityavsivaram/the-soda-ash-signal-why-indias-pharma-supply-chain-has-a-blind-spot-no-control-tower-can-see-0a46b1a45999) — Medium
 
 ---
 
@@ -36,48 +48,4 @@ risk scores into a single procurement intelligence view.
 ## Key Findings (June 2026)
 
 | Material | CIIP Score | Risk Level | 12M Forecast |
-|---|---|---|---|
-| LNG Japan | 9.50 | CRITICAL | UP 35.2% |
-| Soda Ash | 8.67 | CRITICAL | DOWN 5.7% |
-| Methanol | 7.50 | HIGH | UP 7.9% |
-| Acetic Acid | 7.50 | HIGH | STABLE 1.1% |
-| Polysilicon | 6.00 | MEDIUM | DOWN 59.6% |
-
-**Critical insight:** LNG Japan at 9.5 CRITICAL with 35% price 
-increase forecast represents the highest upstream risk for Indian 
-pharma procurement. Energy cost escalation transmits into API 
-manufacturing costs within 6 to 8 weeks.
-
----
-
-## CIIP Index Scoring Methodology
-
-CIIP Score = (Pharma Demand x 0.30) + (Cross-Industry Competition x 0.45) + (Geopolitical Risk x 0.25)
-
----
-
-## Technical Stack
-
-Python | Prophet | Pandas | NumPy | Plotly | Streamlit | scikit-learn | Matplotlib
-
----
-
-## Data Sources
-
-| Material | Source | Rating |
-|---|---|---|
-| Methanol | Methanex Contract Prices | PRIMARY |
-| LNG Japan | World Bank Pink Sheet | PRIMARY |
-| Soda Ash | FRED Reconstructed Proxy | PROXY |
-| Acetic Acid | Chemanalyst/ICIS Proxy | PROXY |
-| Polysilicon | PVInsights/Bloomberg Proxy | PROXY |
-
----
-
-## Contact
-
-Aditya V Sivaram Poduri
-adityavsivaram@gmail.com
-https://linkedin.com/in/adityasivaram
-
-**Live Dashboard:** https://ciip-pharma-supply-chain-intelligence-eowphashbnq2jnvj6mkjzq.streamlit.app
+|---
