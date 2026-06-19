@@ -1,4 +1,31 @@
 import streamlit as st
+import streamlit.components.v1 as components
+
+schema_code = """
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "name": "The CIIP Index (Cross-Industry Input Pressure Index)",
+  "alternateName": ["CIIP Index", "Soda Ash CIIP Index", "Cross-Industry Input Pressure Index"],
+  "headline": "The CIIP Index: A Framework for Cross-Sector Commodity Demand Pressure",
+  "description": "An analytical framework applying Leontief Input-Output economics to track how commodity shocks and cross-sector demand pressure move through India's pharma supply chain, including soda ash, methanol, and acetic acid.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aditya V. Sivaram Poduri",
+    "jobTitle": "Supply Chain Strategist",
+    "sameAs": [
+      "https://www.linkedin.com/in/adityasivaram/",
+      "https://indiasupplychainsignals.substack.com",
+      "https://medium.com/@adityavsivaram/the-soda-ash-signal-why-indias-pharma-supply-chain-has-a-blind-spot-no-control-tower-can-see-0a46b1a45999"
+    ]
+  },
+  "keywords": "CIIP Index, Cross-Industry Input Pressure, Soda Ash Index, Supply Chain Intelligence, India pharma supply chain"
+}
+</script>
+"""
+
+components.html(schema_code, height=0, width=0)
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
