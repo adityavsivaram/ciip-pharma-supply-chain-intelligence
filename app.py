@@ -1,5 +1,11 @@
 import streamlit as st
 import streamlit.components.v1 as components
+# Paste your copied Google Meta Tag here
+google_meta_tag = """
+<meta name="google-site-verification" content="<meta name="google-site-verification" content="lpL2-dAQ9kk_ge5_0XHTrBRo3QCHsEUsavH5PqRdxck" />" />
+"""
+# Inject the meta tag cleanly into the header background
+components.html(google_meta_tag, height=0, width=0)
 
 schema_code = """
 <script type="application/ld+json">
